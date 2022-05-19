@@ -32,8 +32,7 @@ struct WeeklyCalendaerHeader: View {
             }, label: {
                 Text(weekCalendarVM.getMonth())
                     .modifier(TextTitleModifier(isBold: true))
-                    .padding(.vertical)
-                    .padding(.trailing, 15)
+                    .padding(.vertical) 
             })
             .padding(.top)
             
